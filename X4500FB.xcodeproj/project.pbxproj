@@ -33,13 +33,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		508A1B3818C445D30067980E /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = graphics;
-			sourceTree = "<group>";
-		};
 		50B25D8518C4414B007E58F4 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +69,6 @@
 		50B25D9718C4414C007E58F4 /* X4500FB */ = {
 			isa = PBXGroup;
 			children = (
-				50B25DA718C44457007E58F4 /* IOKit */,
 				50B25D9E18C4414C007E58F4 /* X4500FB.h */,
 				50B25DA018C4414C007E58F4 /* X4500FB.cpp */,
 				50B25D9818C4414C007E58F4 /* Supporting Files */,
@@ -92,14 +84,6 @@
 				50B25D9D18C4414C007E58F4 /* X4500FB-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		50B25DA718C44457007E58F4 /* IOKit */ = {
-			isa = PBXGroup;
-			children = (
-				508A1B3818C445D30067980E /* graphics */,
-			);
-			name = IOKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

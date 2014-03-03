@@ -1,5 +1,5 @@
 #include <IOKit/IOLib.h>
-
+#include <IOKit/graphics/IOFrameBuffer.h>
 #include "X4500FB.h"
 
 
@@ -48,30 +48,36 @@ IOService *X4500::probe(IOService *provider, SInt32 *score)
     
 }
 
-
-
 bool X4500::start(IOService *provider)
-
 {
     
-    bool result = super::start(provider);
-    
+    bool result = super::start(provider);   
     IOLog("Starting\n");
-    
     return result;
-    
 }
-
-
 
 void X4500::stop(IOService *provider)
-
-{
-    
+{  
     IOLog("Stopping\n");
-    
     super::stop(provider);
-    
 }
 
+
+#undef super
+#define super IOFramebuffer
+
+OSDefineMetaClassAndStructors(X4500FB, IOFramebuffer)
+
+/*
+ only 1 mode support for test.
+ */
+IOItemCount X4500FB::getDisplayModeCount()
+{
+    return 1;
+}
+
+IOReturn X4500FB::getDisplayModes(IODisplayModeID *allDisplayModes)
+{
+    return kIOReturnSuccess;
+}
 
