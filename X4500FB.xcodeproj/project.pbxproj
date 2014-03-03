@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50B25D9C18C4414C007E58F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B25D9A18C4414C007E58F4 /* InfoPlist.strings */; };
+		50B25D9F18C4414C007E58F4 /* X4500FB.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B25D9E18C4414C007E58F4 /* X4500FB.h */; };
+		50B25DA118C4414C007E58F4 /* X4500FB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B25DA018C4414C007E58F4 /* X4500FB.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50B25D9218C4414C007E58F4 /* X4500FB.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = X4500FB.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B25D9618C4414C007E58F4 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		50B25D9918C4414C007E58F4 /* X4500FB-Info.plist */ = {isa = PBXFileReference; path = "X4500FB-Info.plist"; sourceTree = "<group>"; };
+		50B25D9B18C4414C007E58F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50B25D9D18C4414C007E58F4 /* X4500FB-Prefix.pch */ = {isa = PBXFileReference; path = "X4500FB-Prefix.pch"; sourceTree = "<group>"; };
+		50B25D9E18C4414C007E58F4 /* X4500FB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X4500FB.h; sourceTree = "<group>"; };
+		50B25DA018C4414C007E58F4 /* X4500FB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = X4500FB.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B25D8D18C4414C007E58F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B25D8518C4414B007E58F4 = {
+			isa = PBXGroup;
+			children = (
+				50B25D9718C4414C007E58F4 /* X4500FB */,
+				50B25D9418C4414C007E58F4 /* Frameworks */,
+				50B25D9318C4414C007E58F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50B25D9318C4414C007E58F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B25D9218C4414C007E58F4 /* X4500FB.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B25D9418C4414C007E58F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50B25D9518C4414C007E58F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50B25D9518C4414C007E58F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50B25D9618C4414C007E58F4 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		50B25D9718C4414C007E58F4 /* X4500FB */ = {
+			isa = PBXGroup;
+			children = (
+				50B25D9E18C4414C007E58F4 /* X4500FB.h */,
+				50B25DA018C4414C007E58F4 /* X4500FB.cpp */,
+				50B25D9818C4414C007E58F4 /* Supporting Files */,
+			);
+			path = X4500FB;
+			sourceTree = "<group>";
+		};
+		50B25D9818C4414C007E58F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B25D9918C4414C007E58F4 /* X4500FB-Info.plist */,
+				50B25D9A18C4414C007E58F4 /* InfoPlist.strings */,
+				50B25D9D18C4414C007E58F4 /* X4500FB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50B25D8E18C4414C007E58F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B25D9F18C4414C007E58F4 /* X4500FB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50B25D9118C4414C007E58F4 /* X4500FB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B25DA418C4414C007E58F4 /* Build configuration list for PBXNativeTarget "X4500FB" */;
+			buildPhases = (
+				50B25D8C18C4414C007E58F4 /* Sources */,
+				50B25D8D18C4414C007E58F4 /* Frameworks */,
+				50B25D8E18C4414C007E58F4 /* Headers */,
+				50B25D8F18C4414C007E58F4 /* Resources */,
+				50B25D9018C4414C007E58F4 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X4500FB;
+			productName = X4500FB;
+			productReference = 50B25D9218C4414C007E58F4 /* X4500FB.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B25D8718C4414B007E58F4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 50B25D8A18C4414B007E58F4 /* Build configuration list for PBXProject "X4500FB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50B25D8518C4414B007E58F4;
+			productRefGroup = 50B25D9318C4414C007E58F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B25D9118C4414C007E58F4 /* X4500FB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B25D8F18C4414C007E58F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B25D9C18C4414C007E58F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		50B25D9018C4414C007E58F4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B25D8C18C4414C007E58F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B25DA118C4414C007E58F4 /* X4500FB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50B25D9A18C4414C007E58F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B25D9B18C4414C007E58F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B25DA218C4414C007E58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50B25DA318C4414C007E58F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50B25DA518C4414C007E58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "X4500FB/X4500FB-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "X4500FB/X4500FB-Info.plist";
+				MODULE_NAME = com.albert.X4500FB;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		50B25DA618C4414C007E58F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "X4500FB/X4500FB-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "X4500FB/X4500FB-Info.plist";
+				MODULE_NAME = com.albert.X4500FB;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B25D8A18C4414B007E58F4 /* Build configuration list for PBXProject "X4500FB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B25DA218C4414C007E58F4 /* Debug */,
+				50B25DA318C4414C007E58F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B25DA418C4414C007E58F4 /* Build configuration list for PBXNativeTarget "X4500FB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B25DA518C4414C007E58F4 /* Debug */,
+				50B25DA618C4414C007E58F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B25D8718C4414B007E58F4 /* Project object */;
+}
