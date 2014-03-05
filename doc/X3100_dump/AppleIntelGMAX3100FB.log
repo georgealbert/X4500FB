@@ -1,0 +1,388 @@
+t\Ktv
+GTSW
+UX]>
+,[^_
+X=@Y
+<[^_
+,[^_
+ lbvu
+ icdu*k
+,[^_
+kU|
+<[^_
+@th1
+<[^_
+kE|
+l[^_
+kE|
+kE|
+l[^_
+;H@u`
+{P;xPuX
+\[^_
+uxJ~
+9W@u
+9GPt$
+kE\
+<[^_
+t*kE|
+kE|
+tQK~
+t*K~
+kE|
+kU|
+kU|
+kE|
+|[^_
+L[^_
+kM|
+AP+E
+kU|
+9G@u
+@Q@k
+kE|
+kE|
+kU|
+kM|
+kE|
+kE|
+k]|
+kE|
+,[^_
+t$)
+D$0
+rrim
+rsrct>
+svcm
+vskb
+tlcvt
+vsrvt
+fdrm
+<[^_
+|[^_
+L[^_
+9A@u
+9QPu
+A@= 
+A@= 
+}svcm
+}rfr
+}vskb
+}rwopt
+}rwps
+}rrim
+malc
+rwop
+tlkb
+ncso
+ncsp
+tsbv
+borp
+ncso
+cddh
+gnhc
+tlkb
+banetw
+sglf
+tncp
+ncso
+mrap
+kawp
+tsbv
+tncp
+ncso
+tlkb
+tsbv
+Crgi
+ncsp
+mrap
+ncso
+;s$wg
+ta9s
+D$"
+t/f=
+,[^_
+,[^_
+tlPR
+ICPE
+K36Atb
+k36atZ
+L[^_
+malc
+wM9Z(tH
+tA;J
+((v6
+C(;L
+DHLV
+"IG: Invalid backlight duty cycle value"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGMAX3100FB.cpp:7189
+timeout waiting for GMBUS gmStatus=0x%x
+AAPL01,DualLink
+AAPL01,T0
+AAPL01,T1
+AAPL01,T2
+AAPL01,T3
+AAPL01,T4
+AAPL01,T5
+AAPL01,T6
+AAPL01,T7
+AAPL01,PixelFormat
+AAPL01,InverterFrequency
+IG: Invalid firmware max backlight setting
+AAPL01,BacklightIntensity
+IG: Invalid firmware backlight level setting
+"IG: Invalid backlight duty cycle value set by EFI"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGMAX3100FB.cpp:5067
+IOFBDetailedTimings
+saved-timing0
+saved-timing1
+saved-config
+!fSystemMemory
+hw.cachelinesize
+!fSystemContigMemory
+_DSS
+IOFBConfig
+DHSP
+AAPL00,override-no-connect
+AAPL01,override-no-connect
+AAPL00,override-has-edid
+AAPL01,override-has-edid
+AAPL00,override-no-edid
+AAPL01,override-no-edid
+AAPL00,override-has-edid-digital
+AAPL01,override-has-edid-digital
+AAPL00,no-hotplug-support
+AAPL01,no-hotplug-support
+IOFramebuffer
+!fCursorBuffer
+IOFBTimingRange
+IOFBScalerInfo
+IOI2CInterfaceID
+IOFBI2CInterfaceInfo
+IOFBProbeOptions
+tvinset
+gsri
+AppleIntelFramebuffer
+AppleIntelGMAX3100FB
+Start dump hwPrintRegs
+CHECKING kPGTBL_CTL to %#x
+CHECKING kIER to %#x
+CHECKING kIIR to %#x
+CHECKING kIMR to %#x
+CHECKING kADPA to %#x
+CHECKING ksDVO_HDMIB to %#x
+CHECKING ksDVO_HDMIC to %#x
+CHECKING kLVDS to %#x
+CHECKING kVGACNTRL to %#x
+CHECKING kPORT_HOTPLUG_EN to %#x
+CHECKING kPFIT_CONTROL to %#x
+CHECKING kPFIT_PGM_RATIOS to %#x
+CHECKING kPP_CONTROL to %#x
+CHECKING kPP_STATUS to %#x
+CHECKING kPP_ON_DELAYS to %#x
+CHECKING kPP_OFF_DELAYS to %#x
+CHECKING kPP_DIVISOR to %#x
+CHECKING kHTOTAL_B to %#x
+CHECKING kHBLANK_B to %#x
+CHECKING kHSYNC_B to %#x
+CHECKING kVTOTAL_B to %#x
+CHECKING kVBLANK_B to %#x
+CHECKING kVSYNC_B to %#x
+CHECKING kPIPEBSRC to %#x
+CHECKING kPIPEBCONF to %#x
+CHECKING kBCLRPAT_B to %#x
+CHECKING kDSPBCNTR to %#x
+CHECKING kDSPBSTRIDE to %#x
+CHECKING kDSPBLINOFFSET to %#x
+CHECKING kDSPBSURF to %#x
+CHECKING kDSPBTILEOFF to %#x
+CHECKING kDPLLBMD to %#x
+CHECKING kDPLLB_CTRL to %#x
+CHECKING kFPB0 to %#x
+CHECKING kFPB1 to %#x
+CHECKING kCURBCNTR to %#x
+CHECKING kCURBBASE to %#x
+CHECKING kCURBPOS to %#x
+CHECKING kHTOTAL_A to %#x
+CHECKING kHBLANK_A to %#x
+CHECKING kHSYNC_A to %#x
+CHECKING kVTOTAL_A to %#x
+CHECKING kVBLANK_A to %#x
+CHECKING kVSYNC_A to %#x
+CHECKING kPIPEASRC to %#x
+CHECKING kPIPEACONF to %#x
+CHECKING kBCLRPAT_A to %#x
+CHECKING kDSPACNTR to %#x
+CHECKING kDSPASTRIDE to %#x
+CHECKING kDSPALINOFF to %#x
+CHECKING kDSPASURF to %#x
+CHECKING kDSPATILEOFF to %#x
+CHECKING kDPLLAMD to %#x
+CHECKING kDPLLA_CTRL to %#x
+CHECKING kFPA0 to %#x
+CHECKING kFPA1 to %#x
+CHECKING kCURACNTR to %#x
+CHECKING kCURABASE to %#x
+CHECKING kCURAPOS to %#x
+CHECKING kTV_CTL to %#x
+CHECKING kTV_DAC to %#x
+CHECKING kTV_CLR_KNOBS to %#x
+CHECKING kTV_CSC_Y to %#x
+CHECKING kTV_CSC_Y2 to %#x
+CHECKING kTV_CSC_U to %#x
+CHECKING kTV_CSC_U2 to %#x
+CHECKING kTV_CSC_V to %#x
+CHECKING kTV_CSC_V2 to %#x
+CHECKING kTV_CLR_LEVEL to %#x
+CHECKING kTV_H_CTL_1 to %#x
+CHECKING kTV_H_CTL_2 to %#x
+CHECKING kTV_H_CTL_3 to %#x
+CHECKING kTV_V_CTL_1 to %#x
+CHECKING kTV_V_CTL_2 to %#x
+CHECKING kTV_V_CTL_3 to %#x
+CHECKING kTV_V_CTL_4 to %#x
+CHECKING kTV_V_CTL_5 to %#x
+CHECKING kTV_V_CTL_6 to %#x
+CHECKING kTV_V_CTL_7 to %#x
+CHECKING kTV_SC_CTL_1 to %#x
+CHECKING kTV_SC_CTL_2 to %#x
+CHECKING kTV_SC_CTL_3 to %#x
+CHECKING kTV_WIN_POS to %#x
+CHECKING kTV_WIN_SIZE to %#x
+CHECKING kTV_CC_CTL to %#x
+CHECKING kTV_FILTER_CTL_1 to %#x
+CHECKING kTV_FILTER_CTL_2 to %#x
+CHECKING kTV_FILTER_CTL_3 to %#x
+End dump hwPrintRegs
+--------RRRRRRRRGGGGGGGGBBBBBBBB
+EIR = 0x%x, EMR = 0x%x, ESR = 0x%x, ISR = 0x%x
+ESR instruction error
+    IPEIR = 0x%x, IPEHR = 0x%x, INSTDONE = 0x%x, INSTPS = 0x%x, INSTPM = 0x%08x, BB_ADDR = 0x%x
+parser error
+%s GPU %s. EIR %#x ESR %#x Instruction Error IPEIR %#x IPEHR %#x BBADDR %#x INSTDONE %#x INSTPS %#x INSTPM %#x
+ESR page table error
+    PGTBL_ERR = 0x%x, PGTBL_CTL = 0x%x, PGTBL_CTL2 = 0x%x
+%s GPU %s. EIR %#x ESR %#x Page Table Error PGTBL_ERR %#x PGTBL_CTL %#x PGTBL_CTL2 %#x
+%s GPU %s. EIR %#x ESR %#x ISR %#x - unknown type
+%s GPU unexpected debug breakpoint. ISR %#x
+IG: Failed to get PCI function number
+GMA X3100
+IG: mapDeviceMemoryWithRegister failed
+IG: getDeviceMemoryWithRegister failed
+VRAM,totalsize
+AAPL,HasPanel
+AAPL,HasLid
+AAPL,NumFramebuffers
+IG: Can't create cursor memory
+IG: Can't map cursor memory
+acpi-path
+AAPL,NumDisplays
+AAPL,DisplayConfig
+AAPL00,CurrentDisplay
+AAPL00,IODisplayMode
+AAPL00,Pipe
+AAPL00,BootDisplay
+AAPL00,Depth
+AAPL00,Width
+AAPL00,Height
+AAPL00,Interlace
+AAPL00,Refresh
+timing0
+AAPL01,CurrentDisplay
+AAPL01,IODisplayMode
+AAPL01,Pipe
+AAPL01,BootDisplay
+AAPL01,Depth
+AAPL01,Width
+AAPL01,Height
+AAPL01,Interlace
+AAPL01,Refresh
+timing1
+AAPL00,EDID
+AAPL01,EDID
+AAPL00,display-alias
+AAPL01,display-alias
+AAPL,SelfRefreshSupported
+pwrwrap
+getgpuload
+getSensorValue
+AAPL,display-alias
+AAPL,boot-display
+IOFBDependentID
+IOFBDependentIndex
+"Multiple inheritance is not supported"@/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:324
+DHGP
+IG: Can't install interrupt handler
+IG: Can't create FBCLASS - out of memory
+AAPL00,IgnoreConnection
+AAPL00,no-hotplug-interrupt
+AAPL01,IgnoreConnection
+AAPL01,no-hotplug-interrupt
+IOFBGammaWidth
+IOFBGammaCount
+gpu-sensor
+name
+device_type
+location
+zone
+version
+sensor-id
+polling-period
+"IG driver has bad tables!\n"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGMAX3100FB_PM.cpp:1175
+/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGMAX3100FB_PM.cpp
+"%s:%d: Corrupted Table in IG driver\n"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGMAX3100FB_PM.cpp:1192
+AppleSMC
+@(#)PROGRAM:AppleSW  PROJECT:GraphicsDrivers  DEVELOPER:beretta  BUILT:Jun  7 2011 17:06:49
+6.3.6
+,@6@
+7 -@,
+`-@8
+*@3@0
+2@0@= .
+>@.@)
+0@?@.
+,@6@
+7 -@,
+`-@8
+*@3@0
+2@0@= .
+>@.@)
+0@?@.
+2@>@+
++@)@5
+2@?@+@)
+2@>@+
++@)@5
+2@?@+@)
+,,,,0
+,,,
+`7P. .`7
+-@6 
+:0/ - 5 
+, 4@
+, 3@
+`+@2 
+0@)@
+ 5 7`:
+;`: 7 5@7
+7 5`7
+9`6@5
+9`6@5 8
+9@6`5@8 ;
+9 6`5`8 ;
+;`9 6
+8`;@<`;
+0 0@
+0 0@
+0 0 
+`0@0 
+`0`0
+0 0@
+0 0@
+0 0 
+`0@0 
+`0`0
+--------RRRRRRRRGGGGGGGGBBBBBBBB
+''PT
+7T816
+121XJ
+com.apple.AppleSW
+6.3.6
