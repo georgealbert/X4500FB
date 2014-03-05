@@ -1,0 +1,18 @@
+
+为了我的e6400苦逼的X4500（8086:2A42）能显示正常的native resolution，一直都搞不定，考虑自己写个驱动试试。
+
+## Framebuffer是干什么的呢?
+
+10.6.8以后AppleIntelGAMX3100FB.kext不再依赖IONDR了
+
+IOKit的架构真是不错。
+
+* 是不是实现了IOFramebuffer的virtual function 就ok了？<https://developer.apple.com/library/mac/documentation/Kernel/Reference/IOFramebuffer_reference/translated_content/IOFramebuffer.html>
+
+  EDID部分直接写死boot display的算了
+
+* 如何控制硬件的呢？
+
+* 为什么是从显卡获取显示器的EDID信息
+
+  ATI的卡有atirom可以读取，intel的呢？
