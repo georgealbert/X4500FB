@@ -1,9 +1,7 @@
 #include <IOKit/IOLib.h>
-#include <IOKit/ndrvsupport/IOMacOSTypes.h>
-#include <IOKit/graphics/IOFrameBuffer.h>
+//#include <IOKit/ndrvsupport/IOMacOSTypes.h>
+//#include <IOKit/graphics/IOFrameBuffer.h>
 #include "X4500FB.h"
-
-
 
 // This required macro defines the class's constructors, destructors,
 
@@ -12,22 +10,16 @@
 OSDefineMetaClassAndStructors(X4500, IOService)
 
 
-
 // Define the driver's superclass.
 
 #define super IOService
 
-
 bool X4500::init(OSDictionary *dict)
 {
     bool result = super::init(dict);
-    
     IOLog("Initializing\n");
-    
     return result;
 }
-
-
 
 void X4500::free(void)
 {
@@ -36,17 +28,11 @@ void X4500::free(void)
 }
 
 
-
 IOService *X4500::probe(IOService *provider, SInt32 *score)
-
 {
-    
     IOService *result = super::probe(provider, score);
-    
     IOLog("Probing\n");
-    
-    return result;
-    
+    return result;    
 }
 
 bool X4500::start(IOService *provider)
@@ -61,7 +47,6 @@ void X4500::stop(IOService *provider)
     IOLog("Stopping\n");
     super::stop(provider);
 }
-
 
 #undef super
 #define super IOFramebuffer
@@ -78,13 +63,14 @@ IOItemCount X4500FB::getDisplayModeCount()
 
 IOReturn X4500FB::getDisplayModes(IODisplayModeID *allDisplayModes)
 {
+    *allDisplayModes = 1;
     return kIOReturnSuccess;
 }
 
 /*
  * copy from IONDRVFramebuffer.cpp
  */
-const char * getPixelFormats( void )
+const char * X4500FB::getPixelFormats( void )
 {
     static const char * ndrvPixelFormats =
     IO1BitIndexedPixels "\0"
@@ -98,14 +84,14 @@ const char * getPixelFormats( void )
     return (ndrvPixelFormats);
 }
 
-IOReturn getPixelInformation( IODisplayModeID displayMode, IOIndex depth, IOPixelAperture aperture, IOPixelInformation *pixelInfo )
+IOReturn X4500FB::getPixelInformation( IODisplayModeID displayMode, IOIndex depth, IOPixelAperture aperture, IOPixelInformation *info )
 {
-    //PE_Video    bootDisplay;
+    PE_Video    bootDisplay;
     
     if (aperture || depth )
         return (kIOReturnUnsupportedMode);
     
-    //getPlatform()->getConsoleInfo( &bootDisplay);
+    getPlatform()->getConsoleInfo( &bootDisplay );
     
     bzero( info, sizeof( *info));
     

@@ -2,6 +2,7 @@
 #define _X4500FB_h
 
 #include <IOKit/IOService.h>
+#include <IOKit/IOPlatformExpert.h>
 #include <IOKit/graphics/IOFrameBuffer.h>
 
 class X4500 : public IOService
@@ -44,7 +45,7 @@ public:
     
     virtual UInt64 getPixelFormatsForDisplayMode( IODisplayModeID displayMode, IOIndex depth ); 
     
-    virtual IOReturn getPixelInformation( IODisplayModeID displayMode, IOIndex depth, IOPixelAperture aperture, IOPixelInformation *pixelInfo ); 
+    virtual IOReturn getPixelInformation( IODisplayModeID displayMode, IOIndex depth, IOPixelAperture aperture, IOPixelInformation *info ); 
 };
 
-#endif /*_X4500_h*/
+#endif /*!_X4500_h*/
