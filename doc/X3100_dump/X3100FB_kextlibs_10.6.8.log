@@ -401,7 +401,12 @@ For i386:
     __ZN15IORegistryEntry26_RESERVEDIORegistryEntry23Ev in /System/Library/Extensions/System.kext/PlugIns/IOKit.kext (10.8.0)
     _memcpy in /System/Library/Extensions/System.kext/PlugIns/Libkern.kext (10.8.0)
     __ZN9IOService23requestPowerDomainStateEmP17IOPowerConnectionm in /System/Library/Extensions/System.kext/PlugIns/IOKit.kext (10.8.0)
+
     __ZN9IOService15getDeviceMemoryEv in /System/Library/Extensions/System.kext/PlugIns/IOKit.kext (10.8.0)
+这个有点意思，https://developer.apple.com/library/mac/documentation/Kernel/Reference/IOService_reference/translated_content/IOService.html#jumpTo_40，是这样知道framebuffer在哪里分配的吗？不是有FB驱动分配的而是由provider分配的？我就不需要考虑了？
+
+    X3100FB::hwSetupMemory ??? this function is huge in size... I need to deal with framebuffer ram.
+
     __ZN13IOFramebuffer11flushCursorEv in /System/Library/Extensions/IOGraphicsFamily.kext (2.2)
     _strlen in /System/Library/Extensions/System.kext/PlugIns/Libkern.kext (10.8.0)
     __ZN8OSObject18_RESERVEDOSObject8Ev in /System/Library/Extensions/System.kext/PlugIns/Libkern.kext (10.8.0)
@@ -437,7 +442,10 @@ For i386:
     __ZN9IOService19start_PM_idle_timerEv in /System/Library/Extensions/System.kext/PlugIns/IOKit.kext (10.8.0)
     __ZNK8OSObject13taggedReleaseEPKvi in /System/Library/Extensions/System.kext/PlugIns/Libkern.kext (10.8.0)
     __ZN13IOFramebuffer21powerStateDidChangeToEmmP9IOService in /System/Library/Extensions/IOGraphicsFamily.kext (2.2)
+
     __ZN9IOService24mapDeviceMemoryWithIndexEjm in /System/Library/Extensions/System.kext/PlugIns/IOKit.kext (10.8.0)
+very interesting
+
     __ZN13IOFramebuffer21getStartupDisplayModeEPlS0_ in /System/Library/Extensions/IOGraphicsFamily.kext (2.2)
     __ZN8OSObject19_RESERVEDOSObject13Ev in /System/Library/Extensions/System.kext/PlugIns/Libkern.kext (10.8.0)
     __ZN13IOFramebuffer15getBoundingRectEPP9IOGBounds in /System/Library/Extensions/IOGraphicsFamily.kext (2.2)
