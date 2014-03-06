@@ -8,6 +8,46 @@
 
 ## Framebuffer是干什么的呢?
 
+* 控制显示器
+
+  屏幕高、宽，每行的像素字节数，像素的位数、刷新率、piexl clock、vbl中断
+
+  多屏幕支持
+
+* cursor
+  
+  硬件光标支持
+
+* 中断是怎么处理的?
+
+  有几种？每种怎么处理？
+
+  piexl clock要设置?
+
+* 硬件差异在哪里体现？
+
+### Assembler
+
+X3100FB的super class是AppleIntelFramebuffer，反编译看见的
+
+IOBootFramebuffer在IOGraphics.kext里面
+
+从汇编的代码看X3100FB.kext TEXT section最开头的是MacrovisionLibrary，Macrovision是video copy proection的，可以忽略掉
+
+llvm编译后的class和function的命名规则，只猜出来一部分，要是早到文档就方便了
+
+* __ZN21AppleIntelFramebuffer15getPixelFormatsEv
+
+——ZN function的开头 后面的数字21是 class name的长度
+
+Ev: void 不带参数
+
+汇编：  sub 0x0c, %rsp 是在栈上分配function内的临时变量
+
+汇编的一些文档
+
+根据bsd的ABI，eax是保存返回值的?
+
 ## 思考
 
 IOKit的架构真是不错。感觉比linux的清晰不少。
