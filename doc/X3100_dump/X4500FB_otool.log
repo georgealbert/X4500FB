@@ -1,0 +1,1016 @@
+X4500FB:
+(__TEXT,__text) section
+__GLOBAL__I__ZN5X450010gMetaClassE:
+00000000	pushl	%ebp
+00000001	movl	%esp,%ebp
+00000003	subl	$0x08,%esp
+00000006	movl	$0x00000001,(%esp)
+0000000d	movl	$0x0000ffff,0x04(%esp)
+00000015	calll	0x000005e0
+0000001a	addl	$0x08,%esp
+0000001d	popl	%ebp
+0000001e	ret
+0000001f	nop
+__GLOBAL__D__ZN5X450010gMetaClassE:
+00000020	pushl	%ebp
+00000021	movl	%esp,%ebp
+00000023	subl	$0x08,%esp
+00000026	movl	$0x00000000,(%esp)
+0000002d	movl	$0x0000ffff,0x04(%esp)
+00000035	calll	0x000005e0
+0000003a	addl	$0x08,%esp
+0000003d	popl	%ebp
+0000003e	ret
+0000003f	nop
+__ZN11OSMetaClassdlEPvm:
+00000040	pushl	%ebp
+00000041	movl	%esp,%ebp
+00000043	subl	$0x08,%esp
+00000046	movl	0x0c(%ebp),%eax
+00000049	movl	0x08(%ebp),%ecx
+0000004c	movl	%ecx,0xfc(%ebp)
+0000004f	movl	%eax,0xf8(%ebp)
+00000052	addl	$0x08,%esp
+00000055	popl	%ebp
+00000056	ret
+00000057	nop
+__ZNK5X450012getMetaClassEv:
+00000058	pushl	%ebp
+00000059	movl	%esp,%ebp
+0000005b	subl	$0x0c,%esp
+0000005e	movl	0x08(%ebp),%eax
+00000061	movl	%eax,0xfc(%ebp)
+00000064	leal	0x00001890,%eax
+0000006a	movl	%eax,0xf4(%ebp)
+0000006d	movl	0xf4(%ebp),%eax
+00000070	movl	%eax,0xf8(%ebp)
+00000073	movl	0xf8(%ebp),%eax
+00000076	addl	$0x0c,%esp
+00000079	popl	%ebp
+0000007a	ret
+0000007b	nop
+__ZNK7X4500FB12getMetaClassEv:
+0000007c	pushl	%ebp
+0000007d	movl	%esp,%ebp
+0000007f	subl	$0x0c,%esp
+00000082	movl	0x08(%ebp),%eax
+00000085	movl	%eax,0xfc(%ebp)
+00000088	leal	0x000018b0,%eax
+0000008e	movl	%eax,0xf4(%ebp)
+00000091	movl	0xf4(%ebp),%eax
+00000094	movl	%eax,0xf8(%ebp)
+00000097	movl	0xf8(%ebp),%eax
+0000009a	addl	$0x0c,%esp
+0000009d	popl	%ebp
+0000009e	ret
+0000009f	nop
+__ZN7X4500FB19getDisplayModeCountEv:
+000000a0	pushl	%ebp
+000000a1	movl	%esp,%ebp
+000000a3	subl	$0x0c,%esp
+000000a6	movl	0x08(%ebp),%eax
+000000a9	movl	%eax,0xfc(%ebp)
+000000ac	movl	$0x00000001,0xf4(%ebp)
+000000b3	movl	0xf4(%ebp),%eax
+000000b6	movl	%eax,0xf8(%ebp)
+000000b9	movl	0xf8(%ebp),%eax
+000000bc	addl	$0x0c,%esp
+000000bf	popl	%ebp
+000000c0	ret
+000000c1	nop
+__ZN7X4500FB15getDisplayModesEPl:
+000000c2	pushl	%ebp
+000000c3	movl	%esp,%ebp
+000000c5	subl	$0x10,%esp
+000000c8	movl	0x0c(%ebp),%eax
+000000cb	movl	0x08(%ebp),%ecx
+000000ce	movl	%ecx,0xfc(%ebp)
+000000d1	movl	%eax,0xf8(%ebp)
+000000d4	movl	$0x00000000,0xf0(%ebp)
+000000db	movl	0xf0(%ebp),%eax
+000000de	movl	%eax,0xf4(%ebp)
+000000e1	movl	0xf4(%ebp),%eax
+000000e4	addl	$0x10,%esp
+000000e7	popl	%ebp
+000000e8	ret
+000000e9	nop
+000000ea	nop
+000000eb	nop
+000000ec	nop
+000000ed	nop
+000000ee	nop
+000000ef	nop
+__Z15getPixelFormatsv:
+000000f0	pushl	%ebp
+000000f1	movl	%esp,%ebp
+000000f3	subl	$0x08,%esp
+000000f6	movl	0x000017c0,%eax
+000000fb	movl	%eax,0xf8(%ebp)
+000000fe	movl	0xf8(%ebp),%eax
+00000101	movl	%eax,0xfc(%ebp)
+00000104	movl	0xfc(%ebp),%eax
+00000107	addl	$0x08,%esp
+0000010a	popl	%ebp
+0000010b	ret
+0000010c	nop
+0000010d	nop
+0000010e	nop
+0000010f	nop
+__Z29getPixelFormatsForDisplayModell:
+00000110	pushl	%ebp
+00000111	movl	%esp,%ebp
+00000113	subl	$0x10,%esp
+00000116	movl	0x0c(%ebp),%eax
+00000119	movl	0x08(%ebp),%ecx
+0000011c	movl	%ecx,0xfc(%ebp)
+0000011f	movl	%eax,0xf8(%ebp)
+00000122	movl	0xf0(%ebp),%eax
+00000125	movl	0xf4(%ebp),%ecx
+00000128	movl	%ecx,%edx
+0000012a	addl	$0x10,%esp
+0000012d	popl	%ebp
+0000012e	ret
+0000012f	nop
+__ZN5X45009MetaClassD0Ev:
+00000130	pushl	%ebp
+00000131	movl	%esp,%ebp
+00000133	subl	$0x18,%esp
+00000136	movl	0x08(%ebp),%eax
+00000139	movl	%eax,0xfc(%ebp)
+0000013c	movl	0xfc(%ebp),%eax
+0000013f	leal	0x00000ba0,%ecx
+00000145	movl	%ecx,(%eax)
+00000147	movl	0xfc(%ebp),%eax
+0000014a	movl	%eax,(%esp)
+0000014d	calll	0x00000000
+00000152	movl	$0x00000001,%eax
+00000157	cmpb	$0x00,%al
+00000159	je	0x0000016e
+0000015b	movl	0xfc(%ebp),%eax
+0000015e	movl	%eax,(%esp)
+00000161	movl	$0x00000018,0x04(%esp)
+00000169	calll	0x00000040
+0000016e	movl	0xfc(%ebp),%eax
+00000171	movl	%eax,0xf4(%ebp)
+00000174	movl	0xf4(%ebp),%eax
+00000177	movl	%eax,0xf8(%ebp)
+0000017a	movl	0xf8(%ebp),%eax
+0000017d	addl	$0x18,%esp
+00000180	popl	%ebp
+00000181	ret
+__ZN5X45009MetaClassD1Ev:
+00000182	pushl	%ebp
+00000183	movl	%esp,%ebp
+00000185	subl	$0x18,%esp
+00000188	movl	0x08(%ebp),%eax
+0000018b	movl	%eax,0xfc(%ebp)
+0000018e	movl	0xfc(%ebp),%eax
+00000191	leal	0x00000ba0,%ecx
+00000197	movl	%ecx,(%eax)
+00000199	movl	0xfc(%ebp),%eax
+0000019c	movl	%eax,(%esp)
+0000019f	calll	0x00000000
+000001a4	movl	$0x00000000,%eax
+000001a9	cmpb	$0x00,%al
+000001ab	je	0x000001c0
+000001ad	movl	0xfc(%ebp),%eax
+000001b0	movl	%eax,(%esp)
+000001b3	movl	$0x00000018,0x04(%esp)
+000001bb	calll	0x00000040
+000001c0	movl	0xfc(%ebp),%eax
+000001c3	movl	%eax,0xf4(%ebp)
+000001c6	movl	0xf4(%ebp),%eax
+000001c9	movl	%eax,0xf8(%ebp)
+000001cc	movl	0xf8(%ebp),%eax
+000001cf	addl	$0x18,%esp
+000001d2	popl	%ebp
+000001d3	ret
+__ZNK5X45009MetaClass5allocEv:
+000001d4	pushl	%ebp
+000001d5	movl	%esp,%ebp
+000001d7	subl	$0x18,%esp
+000001da	movl	0x08(%ebp),%eax
+000001dd	movl	%eax,0xfc(%ebp)
+000001e0	movl	$0x00000050,(%esp)
+000001e7	calll	0x00000000
+000001ec	movl	%eax,0xf0(%ebp)
+000001ef	movl	0xf0(%ebp),%eax
+000001f2	cmpl	$0x00,%eax
+000001f5	je	0x0000020a
+000001f7	movl	0xf0(%ebp),%eax
+000001fa	movl	%eax,(%esp)
+000001fd	calll	0x0000085e
+00000202	movl	0xf0(%ebp),%eax
+00000205	movl	%eax,0xf4(%ebp)
+00000208	jmp	0x00000210
+0000020a	movl	0xf0(%ebp),%eax
+0000020d	movl	%eax,0xf4(%ebp)
+00000210	movl	0xf4(%ebp),%eax
+00000213	movl	%eax,0xec(%ebp)
+00000216	movl	0xec(%ebp),%eax
+00000219	movl	%eax,0xf8(%ebp)
+0000021c	movl	0xf8(%ebp),%eax
+0000021f	addl	$0x18,%esp
+00000222	popl	%ebp
+00000223	ret
+__ZN7X4500FB9MetaClassD0Ev:
+00000224	pushl	%ebp
+00000225	movl	%esp,%ebp
+00000227	subl	$0x18,%esp
+0000022a	movl	0x08(%ebp),%eax
+0000022d	movl	%eax,0xfc(%ebp)
+00000230	movl	0xfc(%ebp),%eax
+00000233	leal	0x00000c20,%ecx
+00000239	movl	%ecx,(%eax)
+0000023b	movl	0xfc(%ebp),%eax
+0000023e	movl	%eax,(%esp)
+00000241	calll	0x00000000
+00000246	movl	$0x00000001,%eax
+0000024b	cmpb	$0x00,%al
+0000024d	je	0x00000262
+0000024f	movl	0xfc(%ebp),%eax
+00000252	movl	%eax,(%esp)
+00000255	movl	$0x00000018,0x04(%esp)
+0000025d	calll	0x00000040
+00000262	movl	0xfc(%ebp),%eax
+00000265	movl	%eax,0xf4(%ebp)
+00000268	movl	0xf4(%ebp),%eax
+0000026b	movl	%eax,0xf8(%ebp)
+0000026e	movl	0xf8(%ebp),%eax
+00000271	addl	$0x18,%esp
+00000274	popl	%ebp
+00000275	ret
+__ZN7X4500FB9MetaClassD1Ev:
+00000276	pushl	%ebp
+00000277	movl	%esp,%ebp
+00000279	subl	$0x18,%esp
+0000027c	movl	0x08(%ebp),%eax
+0000027f	movl	%eax,0xfc(%ebp)
+00000282	movl	0xfc(%ebp),%eax
+00000285	leal	0x00000c20,%ecx
+0000028b	movl	%ecx,(%eax)
+0000028d	movl	0xfc(%ebp),%eax
+00000290	movl	%eax,(%esp)
+00000293	calll	0x00000000
+00000298	movl	$0x00000000,%eax
+0000029d	cmpb	$0x00,%al
+0000029f	je	0x000002b4
+000002a1	movl	0xfc(%ebp),%eax
+000002a4	movl	%eax,(%esp)
+000002a7	movl	$0x00000018,0x04(%esp)
+000002af	calll	0x00000040
+000002b4	movl	0xfc(%ebp),%eax
+000002b7	movl	%eax,0xf4(%ebp)
+000002ba	movl	0xf4(%ebp),%eax
+000002bd	movl	%eax,0xf8(%ebp)
+000002c0	movl	0xf8(%ebp),%eax
+000002c3	addl	$0x18,%esp
+000002c6	popl	%ebp
+000002c7	ret
+__ZNK7X4500FB9MetaClass5allocEv:
+000002c8	pushl	%ebp
+000002c9	movl	%esp,%ebp
+000002cb	subl	$0x18,%esp
+000002ce	movl	0x08(%ebp),%eax
+000002d1	movl	%eax,0xfc(%ebp)
+000002d4	movl	$0x0000010c,(%esp)
+000002db	calll	0x00000000
+000002e0	movl	%eax,0xf0(%ebp)
+000002e3	movl	0xf0(%ebp),%eax
+000002e6	cmpl	$0x00,%eax
+000002e9	je	0x000002fe
+000002eb	movl	0xf0(%ebp),%eax
+000002ee	movl	%eax,(%esp)
+000002f1	calll	0x00000444
+000002f6	movl	0xf0(%ebp),%eax
+000002f9	movl	%eax,0xf4(%ebp)
+000002fc	jmp	0x00000304
+000002fe	movl	0xf0(%ebp),%eax
+00000301	movl	%eax,0xf4(%ebp)
+00000304	movl	0xf4(%ebp),%eax
+00000307	movl	%eax,0xec(%ebp)
+0000030a	movl	0xec(%ebp),%eax
+0000030d	movl	%eax,0xf8(%ebp)
+00000310	movl	0xf8(%ebp),%eax
+00000313	addl	$0x18,%esp
+00000316	popl	%ebp
+00000317	ret
+__ZN7X4500FBC1EPK11OSMetaClass:
+00000318	pushl	%ebp
+00000319	movl	%esp,%ebp
+0000031b	subl	$0x18,%esp
+0000031e	movl	0x0c(%ebp),%eax
+00000321	movl	0x08(%ebp),%ecx
+00000324	movl	%ecx,0xfc(%ebp)
+00000327	movl	%eax,0xf8(%ebp)
+0000032a	movl	0xfc(%ebp),%eax
+0000032d	movl	0xf8(%ebp),%ecx
+00000330	movl	%eax,(%esp)
+00000333	movl	%ecx,0x04(%esp)
+00000337	calll	0x00000000
+0000033c	movl	0xfc(%ebp),%eax
+0000033f	leal	0x00000ca0,%ecx
+00000345	movl	%ecx,(%eax)
+00000347	movl	0xfc(%ebp),%eax
+0000034a	movl	%eax,0xf0(%ebp)
+0000034d	movl	0xf0(%ebp),%eax
+00000350	movl	%eax,0xf4(%ebp)
+00000353	movl	0xf4(%ebp),%eax
+00000356	addl	$0x18,%esp
+00000359	popl	%ebp
+0000035a	ret
+0000035b	nop
+__ZN7X4500FBD1Ev:
+0000035c	pushl	%ebp
+0000035d	movl	%esp,%ebp
+0000035f	subl	$0x18,%esp
+00000362	movl	0x08(%ebp),%eax
+00000365	movl	%eax,0xfc(%ebp)
+00000368	movl	0xfc(%ebp),%eax
+0000036b	leal	0x00000ca0,%ecx
+00000371	movl	%ecx,(%eax)
+00000373	movl	0xfc(%ebp),%eax
+00000376	movl	%eax,(%esp)
+00000379	calll	0x00000000
+0000037e	movl	$0x00000000,%eax
+00000383	cmpb	$0x00,%al
+00000385	je	0x0000039a
+00000387	movl	0xfc(%ebp),%eax
+0000038a	movl	%eax,(%esp)
+0000038d	movl	$0x0000010c,0x04(%esp)
+00000395	calll	0x00000000
+0000039a	movl	0xfc(%ebp),%eax
+0000039d	movl	%eax,0xf4(%ebp)
+000003a0	movl	0xf4(%ebp),%eax
+000003a3	movl	%eax,0xf8(%ebp)
+000003a6	movl	0xf8(%ebp),%eax
+000003a9	addl	$0x18,%esp
+000003ac	popl	%ebp
+000003ad	ret
+__ZN7X4500FBD0Ev:
+000003ae	pushl	%ebp
+000003af	movl	%esp,%ebp
+000003b1	subl	$0x18,%esp
+000003b4	movl	0x08(%ebp),%eax
+000003b7	movl	%eax,0xfc(%ebp)
+000003ba	movl	0xfc(%ebp),%eax
+000003bd	leal	0x00000ca0,%ecx
+000003c3	movl	%ecx,(%eax)
+000003c5	movl	0xfc(%ebp),%eax
+000003c8	movl	%eax,(%esp)
+000003cb	calll	0x00000000
+000003d0	movl	$0x00000001,%eax
+000003d5	cmpb	$0x00,%al
+000003d7	je	0x000003ec
+000003d9	movl	0xfc(%ebp),%eax
+000003dc	movl	%eax,(%esp)
+000003df	movl	$0x0000010c,0x04(%esp)
+000003e7	calll	0x00000000
+000003ec	movl	0xfc(%ebp),%eax
+000003ef	movl	%eax,0xf4(%ebp)
+000003f2	movl	0xf4(%ebp),%eax
+000003f5	movl	%eax,0xf8(%ebp)
+000003f8	movl	0xf8(%ebp),%eax
+000003fb	addl	$0x18,%esp
+000003fe	popl	%ebp
+000003ff	ret
+__ZN7X4500FBC2EPK11OSMetaClass:
+00000400	pushl	%ebp
+00000401	movl	%esp,%ebp
+00000403	subl	$0x18,%esp
+00000406	movl	0x0c(%ebp),%eax
+00000409	movl	0x08(%ebp),%ecx
+0000040c	movl	%ecx,0xfc(%ebp)
+0000040f	movl	%eax,0xf8(%ebp)
+00000412	movl	0xfc(%ebp),%eax
+00000415	movl	0xf8(%ebp),%ecx
+00000418	movl	%eax,(%esp)
+0000041b	movl	%ecx,0x04(%esp)
+0000041f	calll	0x00000000
+00000424	movl	0xfc(%ebp),%eax
+00000427	leal	0x00000ca0,%ecx
+0000042d	movl	%ecx,(%eax)
+0000042f	movl	0xfc(%ebp),%eax
+00000432	movl	%eax,0xf0(%ebp)
+00000435	movl	0xf0(%ebp),%eax
+00000438	movl	%eax,0xf4(%ebp)
+0000043b	movl	0xf4(%ebp),%eax
+0000043e	addl	$0x18,%esp
+00000441	popl	%ebp
+00000442	ret
+00000443	nop
+__ZN7X4500FBC1Ev:
+00000444	pushl	%ebp
+00000445	movl	%esp,%ebp
+00000447	subl	$0x18,%esp
+0000044a	movl	0x08(%ebp),%eax
+0000044d	movl	%eax,0xfc(%ebp)
+00000450	movl	0xfc(%ebp),%eax
+00000453	leal	0x000018b0,%ecx
+00000459	movl	%eax,(%esp)
+0000045c	movl	%ecx,0x04(%esp)
+00000460	movl	%ecx,0xf0(%ebp)
+00000463	calll	0x00000000
+00000468	movl	0xfc(%ebp),%eax
+0000046b	leal	0x00000ca0,%ecx
+00000471	movl	%ecx,(%eax)
+00000473	movl	0xf0(%ebp),%eax
+00000476	movl	%eax,(%esp)
+00000479	calll	0x00000000
+0000047e	movl	0xfc(%ebp),%eax
+00000481	movl	%eax,0xf4(%ebp)
+00000484	movl	0xf4(%ebp),%eax
+00000487	movl	%eax,0xf8(%ebp)
+0000048a	movl	0xf8(%ebp),%eax
+0000048d	addl	$0x18,%esp
+00000490	popl	%ebp
+00000491	ret
+__ZN7X4500FBC2Ev:
+00000492	pushl	%ebp
+00000493	movl	%esp,%ebp
+00000495	subl	$0x18,%esp
+00000498	movl	0x08(%ebp),%eax
+0000049b	movl	%eax,0xfc(%ebp)
+0000049e	movl	0xfc(%ebp),%eax
+000004a1	leal	0x000018b0,%ecx
+000004a7	movl	%eax,(%esp)
+000004aa	movl	%ecx,0x04(%esp)
+000004ae	movl	%ecx,0xf0(%ebp)
+000004b1	calll	0x00000000
+000004b6	movl	0xfc(%ebp),%eax
+000004b9	leal	0x00000ca0,%ecx
+000004bf	movl	%ecx,(%eax)
+000004c1	movl	0xf0(%ebp),%eax
+000004c4	movl	%eax,(%esp)
+000004c7	calll	0x00000000
+000004cc	movl	0xfc(%ebp),%eax
+000004cf	movl	%eax,0xf4(%ebp)
+000004d2	movl	0xf4(%ebp),%eax
+000004d5	movl	%eax,0xf8(%ebp)
+000004d8	movl	0xf8(%ebp),%eax
+000004db	addl	$0x18,%esp
+000004de	popl	%ebp
+000004df	ret
+__ZN7X4500FB9MetaClassC1Ev:
+000004e0	pushl	%ebp
+000004e1	movl	%esp,%ebp
+000004e3	subl	$0x28,%esp
+000004e6	movl	0x08(%ebp),%eax
+000004e9	movl	%eax,0xfc(%ebp)
+000004ec	movl	0xfc(%ebp),%eax
+000004ef	leal	0x00001758,%ecx
+000004f5	leal	0x00000000,%edx
+000004fb	movl	%eax,(%esp)
+000004fe	movl	%ecx,0x04(%esp)
+00000502	movl	%edx,0x08(%esp)
+00000506	movl	$0x0000010c,0x0c(%esp)
+0000050e	calll	0x00000000
+00000513	movl	0xfc(%ebp),%eax
+00000516	leal	0x00000c20,%ecx
+0000051c	movl	%ecx,(%eax)
+0000051e	movl	0xfc(%ebp),%eax
+00000521	movl	%eax,0xf4(%ebp)
+00000524	movl	0xf4(%ebp),%eax
+00000527	movl	%eax,0xf8(%ebp)
+0000052a	movl	0xf8(%ebp),%eax
+0000052d	addl	$0x28,%esp
+00000530	popl	%ebp
+00000531	ret
+__ZN7X4500FB9MetaClassC2Ev:
+00000532	pushl	%ebp
+00000533	movl	%esp,%ebp
+00000535	subl	$0x28,%esp
+00000538	movl	0x08(%ebp),%eax
+0000053b	movl	%eax,0xfc(%ebp)
+0000053e	movl	0xfc(%ebp),%eax
+00000541	leal	0x00001758,%ecx
+00000547	leal	0x00000000,%edx
+0000054d	movl	%eax,(%esp)
+00000550	movl	%ecx,0x04(%esp)
+00000554	movl	%edx,0x08(%esp)
+00000558	movl	$0x0000010c,0x0c(%esp)
+00000560	calll	0x00000000
+00000565	movl	0xfc(%ebp),%eax
+00000568	leal	0x00000c20,%ecx
+0000056e	movl	%ecx,(%eax)
+00000570	movl	0xfc(%ebp),%eax
+00000573	movl	%eax,0xf4(%ebp)
+00000576	movl	0xf4(%ebp),%eax
+00000579	movl	%eax,0xf8(%ebp)
+0000057c	movl	0xf8(%ebp),%eax
+0000057f	addl	$0x28,%esp
+00000582	popl	%ebp
+00000583	ret
+__ZN5X45009MetaClassC1Ev:
+00000584	pushl	%ebp
+00000585	movl	%esp,%ebp
+00000587	subl	$0x28,%esp
+0000058a	movl	0x08(%ebp),%eax
+0000058d	movl	%eax,0xfc(%ebp)
+00000590	movl	0xfc(%ebp),%eax
+00000593	leal	0x00001760,%ecx
+00000599	leal	0x00000000,%edx
+0000059f	movl	%eax,(%esp)
+000005a2	movl	%ecx,0x04(%esp)
+000005a6	movl	%edx,0x08(%esp)
+000005aa	movl	$0x00000050,0x0c(%esp)
+000005b2	calll	0x00000000
+000005b7	movl	0xfc(%ebp),%eax
+000005ba	leal	0x00000ba0,%ecx
+000005c0	movl	%ecx,(%eax)
+000005c2	movl	0xfc(%ebp),%eax
+000005c5	movl	%eax,0xf4(%ebp)
+000005c8	movl	0xf4(%ebp),%eax
+000005cb	movl	%eax,0xf8(%ebp)
+000005ce	movl	0xf8(%ebp),%eax
+000005d1	addl	$0x28,%esp
+000005d4	popl	%ebp
+000005d5	ret
+000005d6	nop
+000005d7	nop
+000005d8	nop
+000005d9	nop
+000005da	nop
+000005db	nop
+000005dc	nop
+000005dd	nop
+000005de	nop
+000005df	nop
+__Z41__static_initialization_and_destruction_0ii:
+000005e0	pushl	%ebp
+000005e1	movl	%esp,%ebp
+000005e3	subl	$0x18,%esp
+000005e6	movl	0x0c(%ebp),%eax
+000005e9	movl	0x08(%ebp),%ecx
+000005ec	movl	%ecx,0xfc(%ebp)
+000005ef	movl	%eax,0xf8(%ebp)
+000005f2	movl	0xfc(%ebp),%eax
+000005f5	cmpl	$0x01,%eax
+000005f8	jne	0x00000620
+000005fa	movl	0xf8(%ebp),%eax
+000005fd	cmpl	$0x0000ffff,%eax
+00000602	jne	0x00000620
+00000604	leal	0x00001890,%eax
+0000060a	movl	%eax,(%esp)
+0000060d	calll	0x00000584
+00000612	leal	0x000018b0,%eax
+00000618	movl	%eax,(%esp)
+0000061b	calll	0x000004e0
+00000620	movl	0xfc(%ebp),%eax
+00000623	cmpl	$0x00,%eax
+00000626	jne	0x00000652
+00000628	movl	0xf8(%ebp),%eax
+0000062b	cmpl	$0x0000ffff,%eax
+00000630	jne	0x00000652
+00000632	movl	0x00000c28,%eax
+00000637	leal	0x000018b0,%ecx
+0000063d	movl	%ecx,(%esp)
+00000640	call	*%eax
+00000642	movl	0x00000ba8,%eax
+00000647	leal	0x00001890,%ecx
+0000064d	movl	%ecx,(%esp)
+00000650	call	*%eax
+00000652	addl	$0x18,%esp
+00000655	popl	%ebp
+00000656	ret
+00000657	nop
+__ZN5X45009MetaClassC2Ev:
+00000658	pushl	%ebp
+00000659	movl	%esp,%ebp
+0000065b	subl	$0x28,%esp
+0000065e	movl	0x08(%ebp),%eax
+00000661	movl	%eax,0xfc(%ebp)
+00000664	movl	0xfc(%ebp),%eax
+00000667	leal	0x00001760,%ecx
+0000066d	leal	0x00000000,%edx
+00000673	movl	%eax,(%esp)
+00000676	movl	%ecx,0x04(%esp)
+0000067a	movl	%edx,0x08(%esp)
+0000067e	movl	$0x00000050,0x0c(%esp)
+00000686	calll	0x00000000
+0000068b	movl	0xfc(%ebp),%eax
+0000068e	leal	0x00000ba0,%ecx
+00000694	movl	%ecx,(%eax)
+00000696	movl	0xfc(%ebp),%eax
+00000699	movl	%eax,0xf4(%ebp)
+0000069c	movl	0xf4(%ebp),%eax
+0000069f	movl	%eax,0xf8(%ebp)
+000006a2	movl	0xf8(%ebp),%eax
+000006a5	addl	$0x28,%esp
+000006a8	popl	%ebp
+000006a9	ret
+__ZN7X4500FBD2Ev:
+000006aa	pushl	%ebp
+000006ab	movl	%esp,%ebp
+000006ad	subl	$0x18,%esp
+000006b0	movl	0x08(%ebp),%eax
+000006b3	movl	%eax,0xfc(%ebp)
+000006b6	movl	0xfc(%ebp),%eax
+000006b9	leal	0x00000ca0,%ecx
+000006bf	movl	%ecx,(%eax)
+000006c1	movl	0xfc(%ebp),%eax
+000006c4	movl	%eax,(%esp)
+000006c7	calll	0x00000000
+000006cc	movl	$0x00000000,%eax
+000006d1	cmpb	$0x00,%al
+000006d3	je	0x000006e8
+000006d5	movl	0xfc(%ebp),%eax
+000006d8	movl	%eax,(%esp)
+000006db	movl	$0x0000010c,0x04(%esp)
+000006e3	calll	0x00000000
+000006e8	movl	0xfc(%ebp),%eax
+000006eb	movl	%eax,0xf4(%ebp)
+000006ee	movl	0xf4(%ebp),%eax
+000006f1	movl	%eax,0xf8(%ebp)
+000006f4	movl	0xf8(%ebp),%eax
+000006f7	addl	$0x18,%esp
+000006fa	popl	%ebp
+000006fb	ret
+__ZN5X45004stopEP9IOService:
+000006fc	pushl	%ebp
+000006fd	movl	%esp,%ebp
+000006ff	subl	$0x18,%esp
+00000702	movl	0x0c(%ebp),%eax
+00000705	movl	0x08(%ebp),%ecx
+00000708	movl	%ecx,0xfc(%ebp)
+0000070b	movl	%eax,0xf8(%ebp)
+0000070e	movl	%esp,%eax
+00000710	movl	$0x00001766,(%eax)
+00000716	calll	0x00000000
+0000071b	movl	0x000002d0,%eax
+00000720	movl	0xfc(%ebp),%ecx
+00000723	movl	0xf8(%ebp),%edx
+00000726	movl	%ecx,(%esp)
+00000729	movl	%edx,0x04(%esp)
+0000072d	call	*%eax
+0000072f	addl	$0x18,%esp
+00000732	popl	%ebp
+00000733	ret
+__ZN5X45005startEP9IOService:
+00000734	pushl	%ebp
+00000735	movl	%esp,%ebp
+00000737	subl	$0x28,%esp
+0000073a	movl	0x0c(%ebp),%eax
+0000073d	movl	0x08(%ebp),%ecx
+00000740	movl	%ecx,0xfc(%ebp)
+00000743	movl	%eax,0xf8(%ebp)
+00000746	movl	0x000002cc,%eax
+0000074b	movl	0xfc(%ebp),%ecx
+0000074e	movl	0xf8(%ebp),%edx
+00000751	movl	%ecx,(%esp)
+00000754	movl	%edx,0x04(%esp)
+00000758	call	*%eax
+0000075a	movb	%al,%cl
+0000075c	movb	%cl,0xef(%ebp)
+0000075f	movl	%esp,%ecx
+00000761	movl	$0x00001770,(%ecx)
+00000767	calll	0x00000000
+0000076c	movb	0xef(%ebp),%al
+0000076f	movzbl	%al,%eax
+00000772	movl	%eax,0xf0(%ebp)
+00000775	movl	0xf0(%ebp),%eax
+00000778	movl	%eax,0xf4(%ebp)
+0000077b	movl	0xf4(%ebp),%eax
+0000077e	movzbl	%al,%eax
+00000781	addl	$0x28,%esp
+00000784	popl	%ebp
+00000785	ret
+__ZN5X45005probeEP9IOServicePl:
+00000786	pushl	%ebp
+00000787	movl	%esp,%ebp
+00000789	pushl	%esi
+0000078a	subl	$0x24,%esp
+0000078d	movl	0x10(%ebp),%eax
+00000790	movl	0x0c(%ebp),%ecx
+00000793	movl	0x08(%ebp),%edx
+00000796	movl	%edx,0xf8(%ebp)
+00000799	movl	%ecx,0xf4(%ebp)
+0000079c	movl	%eax,0xf0(%ebp)
+0000079f	movl	0x000002c8,%eax
+000007a4	movl	0xf8(%ebp),%ecx
+000007a7	movl	0xf4(%ebp),%edx
+000007aa	movl	0xf0(%ebp),%esi
+000007ad	movl	%ecx,(%esp)
+000007b0	movl	%edx,0x04(%esp)
+000007b4	movl	%esi,0x08(%esp)
+000007b8	call	*%eax
+000007ba	movl	%eax,0xe4(%ebp)
+000007bd	movl	%esp,%eax
+000007bf	movl	$0x0000177a,(%eax)
+000007c5	calll	0x00000000
+000007ca	movl	0xe4(%ebp),%eax
+000007cd	movl	%eax,0xe8(%ebp)
+000007d0	movl	0xe8(%ebp),%eax
+000007d3	movl	%eax,0xec(%ebp)
+000007d6	movl	0xec(%ebp),%eax
+000007d9	addl	$0x24,%esp
+000007dc	popl	%esi
+000007dd	popl	%ebp
+000007de	ret
+000007df	nop
+__ZN5X45004freeEv:
+000007e0	pushl	%ebp
+000007e1	movl	%esp,%ebp
+000007e3	subl	$0x08,%esp
+000007e6	movl	0x08(%ebp),%eax
+000007e9	movl	%eax,0xfc(%ebp)
+000007ec	movl	%esp,%eax
+000007ee	movl	$0x00001783,(%eax)
+000007f4	calll	0x00000000
+000007f9	movl	0x00000050,%eax
+000007fe	movl	0xfc(%ebp),%ecx
+00000801	movl	%ecx,(%esp)
+00000804	call	*%eax
+00000806	addl	$0x08,%esp
+00000809	popl	%ebp
+0000080a	ret
+0000080b	nop
+__ZN5X45004initEP12OSDictionary:
+0000080c	pushl	%ebp
+0000080d	movl	%esp,%ebp
+0000080f	subl	$0x28,%esp
+00000812	movl	0x0c(%ebp),%eax
+00000815	movl	0x08(%ebp),%ecx
+00000818	movl	%ecx,0xfc(%ebp)
+0000081b	movl	%eax,0xf8(%ebp)
+0000081e	movl	0x00000114,%eax
+00000823	movl	0xfc(%ebp),%ecx
+00000826	movl	0xf8(%ebp),%edx
+00000829	movl	%ecx,(%esp)
+0000082c	movl	%edx,0x04(%esp)
+00000830	call	*%eax
+00000832	movb	%al,%cl
+00000834	movb	%cl,0xef(%ebp)
+00000837	movl	%esp,%ecx
+00000839	movl	$0x0000178c,(%ecx)
+0000083f	calll	0x00000000
+00000844	movb	0xef(%ebp),%al
+00000847	movzbl	%al,%eax
+0000084a	movl	%eax,0xf0(%ebp)
+0000084d	movl	0xf0(%ebp),%eax
+00000850	movl	%eax,0xf4(%ebp)
+00000853	movl	0xf4(%ebp),%eax
+00000856	movzbl	%al,%eax
+00000859	addl	$0x28,%esp
+0000085c	popl	%ebp
+0000085d	ret
+__ZN5X4500C1Ev:
+0000085e	pushl	%ebp
+0000085f	movl	%esp,%ebp
+00000861	subl	$0x18,%esp
+00000864	movl	0x08(%ebp),%eax
+00000867	movl	%eax,0xfc(%ebp)
+0000086a	movl	0xfc(%ebp),%eax
+0000086d	leal	0x00001890,%ecx
+00000873	movl	%eax,(%esp)
+00000876	movl	%ecx,0x04(%esp)
+0000087a	movl	%ecx,0xf0(%ebp)
+0000087d	calll	0x00000000
+00000882	movl	0xfc(%ebp),%eax
+00000885	leal	0x000012a0,%ecx
+0000088b	movl	%ecx,(%eax)
+0000088d	movl	0xf0(%ebp),%eax
+00000890	movl	%eax,(%esp)
+00000893	calll	0x00000000
+00000898	movl	0xfc(%ebp),%eax
+0000089b	movl	%eax,0xf4(%ebp)
+0000089e	movl	0xf4(%ebp),%eax
+000008a1	movl	%eax,0xf8(%ebp)
+000008a4	movl	0xf8(%ebp),%eax
+000008a7	addl	$0x18,%esp
+000008aa	popl	%ebp
+000008ab	ret
+__ZN5X4500D1Ev:
+000008ac	pushl	%ebp
+000008ad	movl	%esp,%ebp
+000008af	subl	$0x18,%esp
+000008b2	movl	0x08(%ebp),%eax
+000008b5	movl	%eax,0xfc(%ebp)
+000008b8	movl	0xfc(%ebp),%eax
+000008bb	leal	0x000012a0,%ecx
+000008c1	movl	%ecx,(%eax)
+000008c3	movl	0xfc(%ebp),%eax
+000008c6	movl	%eax,(%esp)
+000008c9	calll	0x00000000
+000008ce	movl	$0x00000000,%eax
+000008d3	cmpb	$0x00,%al
+000008d5	je	0x000008ea
+000008d7	movl	0xfc(%ebp),%eax
+000008da	movl	%eax,(%esp)
+000008dd	movl	$0x00000050,0x04(%esp)
+000008e5	calll	0x00000000
+000008ea	movl	0xfc(%ebp),%eax
+000008ed	movl	%eax,0xf4(%ebp)
+000008f0	movl	0xf4(%ebp),%eax
+000008f3	movl	%eax,0xf8(%ebp)
+000008f6	movl	0xf8(%ebp),%eax
+000008f9	addl	$0x18,%esp
+000008fc	popl	%ebp
+000008fd	ret
+__ZN5X4500D0Ev:
+000008fe	pushl	%ebp
+000008ff	movl	%esp,%ebp
+00000901	subl	$0x18,%esp
+00000904	movl	0x08(%ebp),%eax
+00000907	movl	%eax,0xfc(%ebp)
+0000090a	movl	0xfc(%ebp),%eax
+0000090d	leal	0x000012a0,%ecx
+00000913	movl	%ecx,(%eax)
+00000915	movl	0xfc(%ebp),%eax
+00000918	movl	%eax,(%esp)
+0000091b	calll	0x00000000
+00000920	movl	$0x00000001,%eax
+00000925	cmpb	$0x00,%al
+00000927	je	0x0000093c
+00000929	movl	0xfc(%ebp),%eax
+0000092c	movl	%eax,(%esp)
+0000092f	movl	$0x00000050,0x04(%esp)
+00000937	calll	0x00000000
+0000093c	movl	0xfc(%ebp),%eax
+0000093f	movl	%eax,0xf4(%ebp)
+00000942	movl	0xf4(%ebp),%eax
+00000945	movl	%eax,0xf8(%ebp)
+00000948	movl	0xf8(%ebp),%eax
+0000094b	addl	$0x18,%esp
+0000094e	popl	%ebp
+0000094f	ret
+__ZN5X4500C2Ev:
+00000950	pushl	%ebp
+00000951	movl	%esp,%ebp
+00000953	subl	$0x18,%esp
+00000956	movl	0x08(%ebp),%eax
+00000959	movl	%eax,0xfc(%ebp)
+0000095c	movl	0xfc(%ebp),%eax
+0000095f	leal	0x00001890,%ecx
+00000965	movl	%eax,(%esp)
+00000968	movl	%ecx,0x04(%esp)
+0000096c	movl	%ecx,0xf0(%ebp)
+0000096f	calll	0x00000000
+00000974	movl	0xfc(%ebp),%eax
+00000977	leal	0x000012a0,%ecx
+0000097d	movl	%ecx,(%eax)
+0000097f	movl	0xf0(%ebp),%eax
+00000982	movl	%eax,(%esp)
+00000985	calll	0x00000000
+0000098a	movl	0xfc(%ebp),%eax
+0000098d	movl	%eax,0xf4(%ebp)
+00000990	movl	0xf4(%ebp),%eax
+00000993	movl	%eax,0xf8(%ebp)
+00000996	movl	0xf8(%ebp),%eax
+00000999	addl	$0x18,%esp
+0000099c	popl	%ebp
+0000099d	ret
+__ZN5X4500C1EPK11OSMetaClass:
+0000099e	pushl	%ebp
+0000099f	movl	%esp,%ebp
+000009a1	subl	$0x18,%esp
+000009a4	movl	0x0c(%ebp),%eax
+000009a7	movl	0x08(%ebp),%ecx
+000009aa	movl	%ecx,0xfc(%ebp)
+000009ad	movl	%eax,0xf8(%ebp)
+000009b0	movl	0xfc(%ebp),%eax
+000009b3	movl	0xf8(%ebp),%ecx
+000009b6	movl	%eax,(%esp)
+000009b9	movl	%ecx,0x04(%esp)
+000009bd	calll	0x00000000
+000009c2	movl	0xfc(%ebp),%eax
+000009c5	leal	0x000012a0,%ecx
+000009cb	movl	%ecx,(%eax)
+000009cd	movl	0xfc(%ebp),%eax
+000009d0	movl	%eax,0xf0(%ebp)
+000009d3	movl	0xf0(%ebp),%eax
+000009d6	movl	%eax,0xf4(%ebp)
+000009d9	movl	0xf4(%ebp),%eax
+000009dc	addl	$0x18,%esp
+000009df	popl	%ebp
+000009e0	ret
+000009e1	nop
+__ZN5X4500C2EPK11OSMetaClass:
+000009e2	pushl	%ebp
+000009e3	movl	%esp,%ebp
+000009e5	subl	$0x18,%esp
+000009e8	movl	0x0c(%ebp),%eax
+000009eb	movl	0x08(%ebp),%ecx
+000009ee	movl	%ecx,0xfc(%ebp)
+000009f1	movl	%eax,0xf8(%ebp)
+000009f4	movl	0xfc(%ebp),%eax
+000009f7	movl	0xf8(%ebp),%ecx
+000009fa	movl	%eax,(%esp)
+000009fd	movl	%ecx,0x04(%esp)
+00000a01	calll	0x00000000
+00000a06	movl	0xfc(%ebp),%eax
+00000a09	leal	0x000012a0,%ecx
+00000a0f	movl	%ecx,(%eax)
+00000a11	movl	0xfc(%ebp),%eax
+00000a14	movl	%eax,0xf0(%ebp)
+00000a17	movl	0xf0(%ebp),%eax
+00000a1a	movl	%eax,0xf4(%ebp)
+00000a1d	movl	0xf4(%ebp),%eax
+00000a20	addl	$0x18,%esp
+00000a23	popl	%ebp
+00000a24	ret
+00000a25	nop
+__ZN5X4500D2Ev:
+00000a26	pushl	%ebp
+00000a27	movl	%esp,%ebp
+00000a29	subl	$0x18,%esp
+00000a2c	movl	0x08(%ebp),%eax
+00000a2f	movl	%eax,0xfc(%ebp)
+00000a32	movl	0xfc(%ebp),%eax
+00000a35	leal	0x000012a0,%ecx
+00000a3b	movl	%ecx,(%eax)
+00000a3d	movl	0xfc(%ebp),%eax
+00000a40	movl	%eax,(%esp)
+00000a43	calll	0x00000000
+00000a48	movl	$0x00000000,%eax
+00000a4d	cmpb	$0x00,%al
+00000a4f	je	0x00000a64
+00000a51	movl	0xfc(%ebp),%eax
+00000a54	movl	%eax,(%esp)
+00000a57	movl	$0x00000050,0x04(%esp)
+00000a5f	calll	0x00000000
+00000a64	movl	0xfc(%ebp),%eax
+00000a67	movl	%eax,0xf4(%ebp)
+00000a6a	movl	0xf4(%ebp),%eax
+00000a6d	movl	%eax,0xf8(%ebp)
+00000a70	movl	0xf8(%ebp),%eax
+00000a73	addl	$0x18,%esp
+00000a76	popl	%ebp
+00000a77	ret
+_OSKextGetCurrentIdentifier:
+00000a78	pushl	%ebp
+00000a79	movl	%esp,%ebp
+00000a7b	movl	$0x000017ec,%eax
+00000a80	leave
+00000a81	ret
+_OSKextGetCurrentVersionString:
+00000a82	pushl	%ebp
+00000a83	movl	%esp,%ebp
+00000a85	movl	$0x0000182c,%eax
+00000a8a	leave
+00000a8b	ret
+_OSKextGetCurrentLoadTag:
+00000a8c	pushl	%ebp
+00000a8d	movl	%esp,%ebp
+00000a8f	movl	0x000017e8,%eax
+00000a94	leave
+00000a95	ret
+__start:
+00000a96	pushl	%ebp
+00000a97	movl	%esp,%ebp
+00000a99	subl	$0x28,%esp
+00000a9c	movl	%ebx,0xf4(%ebp)
+00000a9f	movl	%esi,0xf8(%ebp)
+00000aa2	movl	%edi,0xfc(%ebp)
+00000aa5	movl	0x08(%ebp),%edi
+00000aa8	movl	0x0c(%ebp),%esi
+00000aab	movl	%esi,0x04(%esp)
+00000aaf	movl	%edi,(%esp)
+00000ab2	calll	0x00000000
+00000ab7	movl	%eax,%ebx
+00000ab9	testl	%eax,%eax
+00000abb	jne	0x00000ae1
+00000abd	movl	0x000018c8,%eax
+00000ac2	testl	%eax,%eax
+00000ac4	je	0x00000ae1
+00000ac6	movl	%esi,0x04(%esp)
+00000aca	movl	%edi,(%esp)
+00000acd	call	*%eax
+00000acf	movl	%eax,%ebx
+00000ad1	testl	%eax,%eax
+00000ad3	je	0x00000ae1
+00000ad5	movl	%esi,0x04(%esp)
+00000ad9	movl	%edi,(%esp)
+00000adc	calll	0x00000000
+00000ae1	movl	%ebx,%eax
+00000ae3	movl	0xf4(%ebp),%ebx
+00000ae6	movl	0xf8(%ebp),%esi
+00000ae9	movl	0xfc(%ebp),%edi
+00000aec	leave
+00000aed	ret
+__stop:
+00000aee	pushl	%ebp
+00000aef	movl	%esp,%ebp
+00000af1	subl	$0x18,%esp
+00000af4	movl	%ebx,0xf8(%ebp)
+00000af7	movl	%esi,0xfc(%ebp)
+00000afa	movl	0x08(%ebp),%esi
+00000afd	movl	0x0c(%ebp),%ebx
+00000b00	movl	0x000018cc,%eax
+00000b05	testl	%eax,%eax
+00000b07	je	0x00000b16
+00000b09	movl	%ebx,0x04(%esp)
+00000b0d	movl	%esi,(%esp)
+00000b10	call	*%eax
+00000b12	testl	%eax,%eax
+00000b14	jne	0x00000b28
+00000b16	movl	%ebx,0x0c(%ebp)
+00000b19	movl	%esi,0x08(%ebp)
+00000b1c	movl	0xf8(%ebp),%ebx
+00000b1f	movl	0xfc(%ebp),%esi
+00000b22	leave
+00000b23	jmp	0x00000000
+00000b28	movl	0xf8(%ebp),%ebx
+00000b2b	movl	0xfc(%ebp),%esi
+00000b2e	leave
+00000b2f	ret

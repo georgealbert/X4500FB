@@ -9417,7 +9417,7 @@ __ZN21AppleIntelFramebuffer5startEP9IOService:
 000090f6	movl	$0x0001222c,(%esp)
 000090fd	calll	0x00000000
 00009102	movl	%eax,0x00000408(%esi)
-00009108	movl	$0x00012234,(%esp)
+00009108	movl	$0x00012234,(%esp)  0x12234: IG: Invalid fireware ma backlight
 0000910f	calll	0x00000000
 00009114	movl	%eax,0x0000040c(%esi)
 0000911a	movl	$0x00012238,(%esp)

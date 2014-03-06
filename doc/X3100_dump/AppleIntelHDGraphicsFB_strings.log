@@ -1,0 +1,398 @@
+@+C@
+CL+S@
+9F4u#
+4[^_
+B;Aur
+Bt;AtuJ
+Bx;Axu4
+B|;A|u,
+B@;A@u
+BD;ADu
+B<;A<
+,[^_
+<[^_
+<[^_
+;Eu+
+ lbvu
+ icdu
+ suau
+ duau#
+,[^_
+,[^_
+@th1
+<[^_
+9Es
+kE4
+L[^_
+9Es
+9Es
+kE4
+\[^_
+;H@u`
+{P;xPuX
+\[^_
+9Es
+9Us
+9Us
+9V@u
+9FPt$
+kE\
+<[^_
+,[^_
+t8iU
+9Us
+|[^_
+,[^_
+,[^_
+80It6
+t$)
+D$0
+svcm
+vskb
+rsrctC
+sgd 
+fdrm
+rrim
+tlcvt
+vsrv
+,[^_
+L[^_
+>7??
+\[^_
+,[^_
+9Es
+,[^_
+;Axug
+;A|u\
+;A@uC
+;ADu8;Q<u3
+|[^_
+tOiE
+pup 
+ndp 
+sgd 
+tdp 
+nep 
+svcm
+tup 
+vskb
+rwopt
+rwps
+rrim
+L[^_
+A@= 
+A@= 
+malc
+ppua
+cpua
+hpua
+smua
+rwop
+ncso
+tlnp
+tlkb
+ncsp
+tsbv
+borp
+gnhc
+smua
+hpua
+cpua
+ppua
+tlkb
+mrap
+sglf
+bane
+cddh
+ncso
+ncsp
+tncp
+tlnp
+kawp
+tsbv
+tncp
+ncso
+tlkb
+tsbv
+ncsp
+mrap
+malc
+L[^_
+L[^_
+D$P
+D$P
+D$P
+D$P
+D$P
+l[^_
+<[^_
+<[^_
+l[^_
+cpuat"w
+smua
+hpuat
+ppuau
+cpuat/
+hpuat:
+smuauE
+ppuau7
+--------RRRRRRRRGGGGGGGGBBBBBBBB
+"IG: Invalid backlight duty cycle value"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGEN6FB.cpp:8117
+timeout waiting for GMBUS gmStatus=0x%x
+AAPL00,DualLink
+AAPL00,PixelFormat
+AAPL00,T1
+AAPL00,T2
+AAPL00,T3
+AAPL00,T4
+AAPL00,T5
+AAPL00,T6
+AAPL00,T7
+AAPL00,InverterFrequency
+IG: Invalid firmware max backlight setting
+AAPL00,BacklightIntensity
+IG: Invalid firmware backlight level setting
+"IG: Invalid backlight duty cycle value set by EFI"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGEN6FB.cpp:6196
+FBCControl
+Compression
+FeatureControl
+Watermarks
+MaximumSelfRefreshLevel
+Gamma
+PowerStates
+RenderStandby
+GPUInterruptHandling
+RSTimerTest
+IOFBDetailedTimings
+saved-timing0
+saved-timing1
+saved-config
+IOFBConfig
+!fSystemContigMemory
+!fSystemMemory
+hw.cachelinesize
+AAPL00,override-no-connect
+AAPL01,override-no-connect
+AAPL00,override-has-edid
+AAPL01,override-has-edid
+AAPL00,override-no-edid
+AAPL01,override-no-edid
+AAPL00,override-has-edid-digital
+AAPL01,override-has-edid-digital
+AAPL00,no-hotplug-support
+AAPL01,no-hotplug-support
+avail bytes: %x
+Stolen Memory Verification
+Failed
+Passed
+Verification %s: Last access in %x
+os-info-override
+AAPL,os-info
+IOFramebuffer
+!fCursorBuffer
+IOFBTimingRange
+IOFBScalerInfo
+IOI2CTransactionTypes
+IOI2CInterfaceID
+IOFBI2CInterfaceInfo
+IOFBProbeOptions
+gsri
+initiateupstream
+AAPL,boot-display
+AppleIntelFramebuffer
+AppleIntelHDGraphicsFB
+Start dump hwPrintRegs
+CHECKING kPGTBL_CTL to %#x
+CHECKING kIER to %#x
+CHECKING kIIR to %#x
+CHECKING kIMR to %#x
+CHECKING kADPA to %#x
+CHECKING kLVDS to %#x
+CHECKING kN_VGACNTRL to %#x
+CHECKING kPP_CONTROL to %#x
+CHECKING kPP_STATUS to %#x
+CHECKING kPP_ON_DELAYS to %#x
+CHECKING kPP_OFF_DELAYS to %#x
+CHECKING kPP_DIVISOR to %#x
+CHECKING kHTOTAL_B to %#x
+CHECKING kHBLANK_B to %#x
+CHECKING kHSYNC_B to %#x
+CHECKING kVTOTAL_B to %#x
+CHECKING kVBLANK_B to %#x
+CHECKING kVSYNC_B to %#x
+CHECKING kPIPEBSRC to %#x
+CHECKING kPIPEBCONF to %#x
+CHECKING kDSPBCNTR to %#x
+CHECKING kDSPBSTRIDE to %#x
+CHECKING kDSPBLINOFFSET to %#x
+CHECKING kDSPBSURF to %#x
+CHECKING kDSPBTILEOFF to %#x
+CHECKING kDPLLB_CTRL to %#x
+CHECKING kFPB0 to %#x
+CHECKING kFPB1 to %#x
+CHECKING kCURBCNTR to %#x
+CHECKING kCURBBASE to %#x
+CHECKING kCURBPOS to %#x
+CHECKING kHTOTAL_A to %#x
+CHECKING kHBLANK_A to %#x
+CHECKING kHSYNC_A to %#x
+CHECKING kVTOTAL_A to %#x
+CHECKING kVBLANK_A to %#x
+CHECKING kVSYNC_A to %#x
+CHECKING kPIPEASRC to %#x
+CHECKING kPIPEACONF to %#x
+CHECKING kDSPACNTR to %#x
+CHECKING kDSPASTRIDE to %#x
+CHECKING kDSPALINOFF to %#x
+CHECKING kDSPASURF to %#x
+CHECKING kDSPATILEOFF to %#x
+CHECKING kDPLLA_CTRL to %#x
+CHECKING kFPA0 to %#x
+CHECKING kFPA1 to %#x
+CHECKING kCURACNTR to %#x
+CHECKING kCURABASE to %#x
+CHECKING kCURAPOS to %#x
+CHECKING kTV_CTL to %#x
+CHECKING kTV_DAC to %#x
+End dump hwPrintRegs
+--------RRRRRRRRGGGGGGGGBBBBBBBB
+EIR = 0x%x, EMR = 0x%x, ESR = 0x%x, N_GTISR = 0x%x
+ESR page table error
+    PGTBL_ERR = 0x%x, PGTBL_CTL = 0x%x, PGTBL_CTL2 = 0x%x
+parser error
+%s GPU %s. EIR %#x ESR %#x Page Table Error PGTBL_ERR %#x PGTBL_CTL %#x PGTBL_CTL2 %#x
+%s GPU %s. EIR %#x ESR %#x N_GTISR %#x - unknown type
+%s: Failed to get PCI function number
+Intel HD Graphics
+IG: mapDeviceMemoryWithRegister failed
+IG: getDeviceMemoryWithRegister failed
+VRAM,totalsize
+%s: failed to allocate the GART
+"No memory avail for PM CTX Page\n"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGEN6FB.cpp:3853
+"No memory avail for PM CTX Page\n"@/SourceCache/GraphicsDrivers/GraphicsDrivers-6.36.10/Common/IONDRV/Intel/IntelIntegratedFramebuffer/IntelGEN6FB.cpp:3866
+IG: Can't allocate cursor memory
+IG: Can't create cursor memory
+IG: Can't map cursor memory
+resetRenderStandby
+clearRenderStandby
+getRenderStandby
+AAPL00,EDID
+AAPL01,EDID
+AAPL00,display-alias
+AAPL01,display-alias
+AAPL,SelfRefreshSupported
+getSensorValue
+AAPL,display-alias
+IOFBDependentID
+IOFBDependentIndex
+"Multiple inheritance is not supported"@/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:324
+IG: Can't install interrupt handler
+updateDPFC
+IG: Can't create FBCLASS - out of memory
+%s VBL interrupts lost DEISR %08x DEIMR %08x DEIER %08x
+AAPL00,IgnoreConnection
+AAPL00,no-hotplug-interrupt
+AAPL01,IgnoreConnection
+AAPL01,no-hotplug-interrupt
+IOFBGammaWidth
+IOFBGammaCount
+MacBookPro6,1
+MacBookPro6,2
+Santa Rosa platform
+virtual bool AppleIntelHDGraphicsFB::start(IOService*)
+Start dumpPMRegs
+P0VIDFREQ to %#x
+P1VIDFREQ to %#x
+P2VIDFREQ to %#x
+P3VIDFREQ to %#x
+P4VIDFREQ to %#x
+P5VIDFREQ to %#x
+P6VIDFREQ to %#x
+P7VIDFREQ to %#x
+P8VIDFREQ to %#x
+P9VIDFREQ to %#x
+P10VIDFREQ to %#x
+P11VIDFREQ to %#x
+P12VIDFREQ to %#x
+P13VIDFREQ to %#x
+P14VIDFREQ to %#x
+P15VIDFREQ to %#x
+kINTTOEXT1 to %#x
+kINTTOEXT2 to %#x
+kINTTOEXT3 to %#x
+kINTTOEXT4 to %#x
+kINTTOEXT5 to %#x
+kINTTOEXT6 to %#x
+kINTTOEXT7 to %#x
+kINTTOEXT8 to %#x
+kINTTOEXT9 to %#x
+kINTTOEXT10  to %#x
+kINTTOEXT11 to %#x
+kINTTOEXT12 to %#x
+kINTTOEXT13 to %#x
+kINTTOEXT14 to %#x
+kINTTOEXT15 to %#x
+kINTTOEXT16 to %#x
+kINTTOEXT17 to %#x
+kINTTOEXT18 to %#x
+kINTTOEXT19 to %#x
+kINTTOEXT20 to %#x
+kINTTOEXT21 to %#x
+kINTTOEXT22 to %#x
+kINTTOEXT23 to %#x
+kINTTOEXT24 to %#x
+kINTTOEXT25 to %#x
+kINTTOEXT26  to %#x
+kINTTOEXT27 to %#x
+kINTTOEXT28 to %#x
+kINTTOEXT29 to %#x
+kINTTOEXT30 to %#x
+kINTTOEXT31 to %#x
+kINTTOEXT32 to %#x
+-------------------------------
+RGVSWCTL to %#x
+RGVMODECTL to %#x
+RGVSTAT to %#x
+RGVINTRSTS to %#x
+RSTDBYCTL to %#x
+%s: command in progress reg=0x%04x
+drfcSetup fStart %d
+ DRFC setup: fCurrentPState %d
+ drfcAlgorithm fCurrentPState %d
+ busyUp %d
+ busyDown %d
+ fUpThresholdPercent %d
+ fDownThresholdPercent %d
+ rpbMinAvg %d 
+ rpbMaxAvg %d 
+ Change power states: fCurrentPState %d fNewPState %d
+ Enabled DRFC
+ fMinPowerState %d
+ fMaxPowerState %d
+Power State = %x
+ Disabled DRFC
+ Setaggro 73: busyUp %d
+ Setaggro 73: busyDown %d
+ Setaggro 73: rpbMinAvg %d 
+ Setaggro 73: rpbMaxAvg %d 
+ Setaggro 73: fCurrentPState %d
+write_gstate
+request Native Aux transaction
+@(#)PROGRAM:AppleSW  PROJECT:GraphicsDrivers  DEVELOPER:beretta  BUILT:Jun  7 2011 17:07:06
+6.3.6
+0`1 
+0@1 
+0@0 
+`0 0`
+@0 0
+@0 0 
+0`1 
+0@1 
+0@0 
+`0 0`
+@0 0
+@0 0 
+@)@5
+@)@5
+com.apple.AppleSW
+6.3.6
