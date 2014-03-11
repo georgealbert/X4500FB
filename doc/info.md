@@ -26,6 +26,12 @@
 
 * 硬件差异在哪里体现？
 
+  每种显卡如何通过i2c总线读取edid，如何和vram打交道，如何和GPIO register打交道
+  
+* intel intergated video card
+
+  只实现了doI2Crequst和getDDCData两个function
+
 ### Assembler
 
 X3100FB的super class是AppleIntelFramebuffer，反编译看见的
